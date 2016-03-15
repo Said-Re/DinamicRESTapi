@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weekly 1 - Said</title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+</head>
+<body ng-app="myapp">
+  <script src="../node_modules/angular/angular.js"></script>
+  <script src="./javascripts/main.js"></script>
+  <div ng-controller="MyController" >
+    <h2>Make a API Rest adding the endPoints</h2>
+    <label>
+       New endPoint:
+       <input type="text" name="route" ng-model="route.name" required>
+    </label>
+    <button ng-click="myData.doClick(item, $event)">Add</button>
+    <br/>
+  </div>
+  <div id = "foo" ng-controller="MyController" >
+    <br/>
+  </div>
+</body>
+</html>
